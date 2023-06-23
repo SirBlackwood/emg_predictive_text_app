@@ -11,7 +11,7 @@ warnings.filterwarnings(action='ignore', category=DataConversionWarning)
 
 
 class ServerThread(QThread):
-    data_received = pyqtSignal(str)  # Сигнал для передачи полученных данных
+    data_received = pyqtSignal(str)
 
     def __init__(self):
         super().__init__()
@@ -58,15 +58,6 @@ class ServerThread(QThread):
                             self.data_received.emit(self.predict(
                                 self.temp.reshape(1, 2000)
                             ))
-            # Получение данных с сервера
-
-            # data = self.get_data_from_server()
-            #
-            # # Отправка данных через сигнал
-            # self.data_received.emit(data)
-            #
-            # # Пауза между запросами к серверу
-            # time.sleep(1)
 
     def predict(self, signal):
         result = self.model.predict(signal.reshape(1, 2000))
@@ -77,6 +68,3 @@ class ServerThread(QThread):
             res = lb.classes_[result]
             print(res)
             return res
-
-    # def get_data_from_server(self):
-    #     return str(random.randint(0, 2))
