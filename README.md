@@ -17,4 +17,4 @@
 </p>
 
 ## Пример работы программы
-https://github.com/SirBlackwood/emg_predictive_text_app/blob/main/media/Демонстрация.webm
+[Демонстрация.webm](https://github.com/SirBlackwood/emg_predictive_text_app/assets/92998113/27f85d5d-7a3e-4eb9-89b7-b2f6cdf0a419)
