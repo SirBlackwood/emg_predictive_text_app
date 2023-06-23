@@ -13,7 +13,7 @@
 
 ## Структура программно-аппаратного комплекса
 <p align="center">
-<img src="https://github.com/SirBlackwood/emg_predictive_text_app/assets/92998113/cfa514e0-117e-434f-bd55-1347d1fba2f6" width="50%"/>
+<img src="https://github.com/SirBlackwood/emg_predictive_text_app/assets/92998113/a9b95c8a-9377-496a-b9a2-accbdd288eef" width="50%"/>
 </p>
 
 ## Пример работы программы
