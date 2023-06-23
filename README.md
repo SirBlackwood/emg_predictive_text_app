@@ -3,4 +3,4 @@
 Управление вводом текста при помощи сигналов электромиографии, полученных от движения кистью одной руки.
 
 ## Пример работы программы
-
+<video src='https://github.com/SirBlackwood/emg_predictive_text_app/blob/main/media/Демонстрация.webm' width=180/>
